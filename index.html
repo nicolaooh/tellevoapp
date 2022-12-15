@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>TeLlevoApp</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <link href="css/booststrap.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    
+
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg cmenu text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">TeLlevoApp</a>
+            <button class=" navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+            <div class="cSollapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Nosotros</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contacto</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  data-toggle="modal" data-target="#formInicio" href="#inicio" id="iniciar">Iniciar sesion</a></li>   
+                    </form>
+                                         
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <!-- Modal Inicio Sesion -->
+        <div class="modal fade" id="formInicio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesion</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Correo Electronico:</label>
+                      <input type="text" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="password" class="col-form-label">Contraseña: </label>
+                      <input type="password" class="form-control" id="password">
+                    </div>
+                    <div id="alerta">
+
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                  <button href="descarga.html" type="button" class="btn btn-primary" id="btnInicio" data-dismiss="modal">Iniciar Sesion</button>
+                  <div>
+                      <label for="registro"  class="col-form-label">¿Aún no tienes una cuenta? </label><a href="" id="registro"> Registrate Aquí</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <header class="masthead fondoc colort text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <img src="assets/img/portfolio/tellevoapplogo.png" width="700" height="300" />
+            <br>
+            
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="text-white page-section-heading text-center text-uppercase mb-0 ">Nosotros</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class=""></div>
+                <div class="line"></div>
+            </div>
+            <!--seccion del carrusel -->
+        </div>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/portfolio/pasajero.png" width="10" height="650" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/portfolio/mapa.jpg" width="10" height="650" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/portfolio/cel.png" width="10" height="650" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+        <br>
+        <h2 class="text-white page-section-heading text-center text-uppercase mb-0 ">que hacemos</h2>
+        <br>
+        <br>
+
+        <h2 class=" page-section-heading text-center  mb-0 ">presentamos una aplicacion movil para transportar estudiantes de un punto a otro con precios absequibles a los estudiantes </h2>
+        <br>
+        <br>
+        <br>
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class=""></div>
+            <div class="line"></div>
+        </div>
+
+        <h2 class="text-white page-section-heading text-center text-uppercase mb-0">descarga aca</h2>
+        <br>
+        <br>
+        <br>
+    </section >
+    <section class="qrresponsive seccionqr"   >
+        
+        <img src="assets/img/portfolio/qr.png" class="qrfoto" width="250" alt="">
+    </section>
+    <section class="secciondownload">
+        
+    <button class="buttondownload"><a class="acolor" href="TellevoAPP.apk" download>TellevaAPP</a> </button> 
+    </section>
+        
+            
+     
+                
+        
+            
+
+
+                 
+        </div>
+     
+        <!-- Seccion de contacto-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="text-white page-section-heading text-center text-uppercase mb-0">Formulario de contacto</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- seccion de contacto-->
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Nombre</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Nombre" required="required" pattern="[a-z0-9._%+-]{3,20}" data-validation-required-message="Por favor ingrese su Nombre." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Correo</label>
+                                    <input class="form-control" id="email" type="email" placeholder="Correo Electronico" required="required" data-validation-required-message="Por favor ingrese su Correo." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Número de Telefono</label>
+                                    <input class="form-control" id="phone" type="tel" placeholder="Número de telefono" required="required" data-validation-required-message="Por favor ingrese su Numero." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Mensaje</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Mensaje" required="required" data-validation-required-message="Por favor ingrese su Mensaje."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="success"></div>
+                            <div class="form-group"><button class="btn colorbtn btn-xl" id="sendMessageButton" type="submit">Enviar</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class=" fondoc footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer locacion-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Ubicaciòn</h4>
+                        <p class="lead mb-0">* 2215 PISTON
+                            <br /> HOODSON, MO 10500
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Sitios Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4"></h4>
+                        <p class="lead mb-0">
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
+        </footer>
+        <!-- Copyright Seccion-->
+        <div class=" fondoc copyright py-4 text-center text-white">
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <script>
+            function detectBrowser() {
+        
+        let userAgent = navigator.userAgent;
+        let browserName;
+        if (userAgent.match(/chrome|chromium|crios/i)) {
+          browserName = "Chrome";
+            
+        }   else if (userAgent.match(/android/i)) {
+          browserName = "Android";
+        } else if (userAgent.match(/iphone/i)) {
+          browserName = "iPhone";
+        } else {
+          browserName = "Unknown";
+        }
+        
+        document.querySelector("div.form-style h3").innerText =
+          "You are browsing with: " + browserName + "";
+        }
+        </script>
+        
+</body>
+
+</html>
